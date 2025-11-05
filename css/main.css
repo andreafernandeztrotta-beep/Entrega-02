@@ -1,0 +1,115 @@
+h1{
+    color: blue;
+}
+h2{
+    color: crimson;
+}
+h3{
+    color: darkorange;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+nav{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.img-logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-logo img{
+    width: 150px;
+    height: auto;
+}
+.img-container{
+    text-align: center;
+    margin: 20px 0;
+}
+.img-container img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.img-linkedin{
+    text-align: center;
+    margin-top: 20px;
+}
+.img-linkedin img{
+    width: 40px;
+    height: auto;
+}
+.img-contacto{
+    text-align: center;
+    margin: 20px 0;
+}
+.img-contacto img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.img-diseño{
+    text-align: center;
+    margin: 20px 0;
+}
+.img-diseño img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.img-marketing{
+    text-align: center;
+    margin: 20px 0;
+}
+.img-marketing img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.img-full-stack{
+    text-align: center;
+    margin: 20px 0;
+}
+.img-full-stack img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+
+ 
+
