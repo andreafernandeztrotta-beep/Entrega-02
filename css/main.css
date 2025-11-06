@@ -41,14 +41,7 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: underline;
 }
-.img-logo{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.img-logo img{
-    width: 150px;
-    height: auto;
-}
+
 .img-container{
     text-align: center;
     margin: 20px 0;
