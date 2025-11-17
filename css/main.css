@@ -41,7 +41,55 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: underline;
 }
+.tabla {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
 
+/* Tabla de servicios con Grid */
+.tabla-servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 2px solid #333;
+  text-align: center;
+}
+
+.encabezado {
+  grid-column: span 3;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.celda {
+  background-color: #e0e0e0;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+/* 📱 Responsive para celulares */
+@media (max-width: 600px) {
+  .tabla-servicios {
+    grid-template-columns: 1fr;
+  }
+
+  .encabezado {
+    grid-column: span 1;
+    font-size: 1.3rem;
+  }
+
+  .celda {
+    font-size: 1rem;
+  }
+}
 .img-container{
     text-align: center;
     margin: 20px 0;
