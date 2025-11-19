@@ -80,6 +80,16 @@ nav ul li a:hover{
   .tabla-servicios {
     grid-template-columns: 1fr;
   }
+  @media (min-width: 1024px) {
+  .tabla-servicios {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .celda {
+    font-size: 1.4rem;
+  }
+}
+
 
   .encabezado {
     grid-column: span 1;
@@ -163,8 +173,3 @@ footer {
   gap: 1rem;
   flex-wrap: wrap;
 }
-
-
-
- 
-
