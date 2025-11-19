@@ -1,0 +1,62 @@
+@use 'variables' as *;
+
+@media (max-width: 600px) {
+  .tabla-servicios {
+    grid-template-columns: 1fr;
+
+    .encabezado {
+      grid-column: span 1;
+      font-size: 1.3rem;
+    }
+
+    .celda {
+      font-size: 1rem;
+    }
+  }
+}
+// Mobile
+@media (max-width: 600px) {
+  .tabla-servicios {
+    grid-template-columns: 1fr;
+
+    .encabezado {
+      grid-column: span 1;
+      font-size: 1.3rem;
+    }
+
+    .celda {
+      font-size: 1rem;
+    }
+  }
+}
+// Tablet
+@media (min-width: 601px) and (max-width: 1024px) {
+  .tabla-servicios {
+    grid-template-columns: 1fr 1fr;
+
+    .encabezado {
+      grid-column: span 2;
+      font-size: 1.4rem;
+    }
+
+    .celda {
+      font-size: 1.1rem;
+    }
+  }
+}
+// Desktop
+@media (min-width: 1025px) {
+  .tabla-servicios {
+    grid-template-columns: repeat(2, 1fr);
+
+    .encabezado {
+      grid-column: span 3;
+      font-size: 1.5rem;
+    }
+
+    .celda {
+      font-size: 1.2rem;
+    }
+  }
+}
+

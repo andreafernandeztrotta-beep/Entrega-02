@@ -1,0 +1,6 @@
+@mixin img-responsive($max-width) {
+  width: 100%;
+  max-width: $max-width;
+  height: auto;
+}
+
