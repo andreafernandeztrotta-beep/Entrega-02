@@ -4,3 +4,9 @@
   height: auto;
 }
 
+@mixin columna-flex($gap: 2rem) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
